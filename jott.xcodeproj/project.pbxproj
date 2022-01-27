@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF70A86727A2DD0200AD7A48 /* jottApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A86627A2DD0200AD7A48 /* jottApp.swift */; };
+		CF70A86927A2DD0200AD7A48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A86827A2DD0200AD7A48 /* ContentView.swift */; };
+		CF70A86B27A2DD0300AD7A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF70A86A27A2DD0300AD7A48 /* Assets.xcassets */; };
+		CF70A86E27A2DD0300AD7A48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF70A86D27A2DD0300AD7A48 /* Preview Assets.xcassets */; };
+		CF70A87927A2DD0300AD7A48 /* jottTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A87827A2DD0300AD7A48 /* jottTests.swift */; };
+		CF70A88327A2DD0300AD7A48 /* jottUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A88227A2DD0300AD7A48 /* jottUITests.swift */; };
+		CF70A88527A2DD0300AD7A48 /* jottUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A88427A2DD0300AD7A48 /* jottUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF70A87527A2DD0300AD7A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF70A85B27A2DD0200AD7A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF70A86227A2DD0200AD7A48;
+			remoteInfo = jott;
+		};
+		CF70A87F27A2DD0300AD7A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF70A85B27A2DD0200AD7A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF70A86227A2DD0200AD7A48;
+			remoteInfo = jott;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF70A86327A2DD0200AD7A48 /* jott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jott.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF70A86627A2DD0200AD7A48 /* jottApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jottApp.swift; sourceTree = "<group>"; };
+		CF70A86827A2DD0200AD7A48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF70A86A27A2DD0300AD7A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF70A86D27A2DD0300AD7A48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF70A86F27A2DD0300AD7A48 /* jott.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jott.entitlements; sourceTree = "<group>"; };
+		CF70A87427A2DD0300AD7A48 /* jottTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jottTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF70A87827A2DD0300AD7A48 /* jottTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jottTests.swift; sourceTree = "<group>"; };
+		CF70A87E27A2DD0300AD7A48 /* jottUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jottUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF70A88227A2DD0300AD7A48 /* jottUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jottUITests.swift; sourceTree = "<group>"; };
+		CF70A88427A2DD0300AD7A48 /* jottUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jottUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF70A86027A2DD0200AD7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87127A2DD0300AD7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87B27A2DD0300AD7A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF70A85A27A2DD0200AD7A48 = {
+			isa = PBXGroup;
+			children = (
+				CF70A86527A2DD0200AD7A48 /* jott */,
+				CF70A87727A2DD0300AD7A48 /* jottTests */,
+				CF70A88127A2DD0300AD7A48 /* jottUITests */,
+				CF70A86427A2DD0200AD7A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF70A86427A2DD0200AD7A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A86327A2DD0200AD7A48 /* jott.app */,
+				CF70A87427A2DD0300AD7A48 /* jottTests.xctest */,
+				CF70A87E27A2DD0300AD7A48 /* jottUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF70A86527A2DD0200AD7A48 /* jott */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A86627A2DD0200AD7A48 /* jottApp.swift */,
+				CF70A86827A2DD0200AD7A48 /* ContentView.swift */,
+				CF70A86A27A2DD0300AD7A48 /* Assets.xcassets */,
+				CF70A86F27A2DD0300AD7A48 /* jott.entitlements */,
+				CF70A86C27A2DD0300AD7A48 /* Preview Content */,
+			);
+			path = jott;
+			sourceTree = "<group>";
+		};
+		CF70A86C27A2DD0300AD7A48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A86D27A2DD0300AD7A48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF70A87727A2DD0300AD7A48 /* jottTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A87827A2DD0300AD7A48 /* jottTests.swift */,
+			);
+			path = jottTests;
+			sourceTree = "<group>";
+		};
+		CF70A88127A2DD0300AD7A48 /* jottUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A88227A2DD0300AD7A48 /* jottUITests.swift */,
+				CF70A88427A2DD0300AD7A48 /* jottUITestsLaunchTests.swift */,
+			);
+			path = jottUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF70A86227A2DD0200AD7A48 /* jott */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70A88827A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jott" */;
+			buildPhases = (
+				CF70A85F27A2DD0200AD7A48 /* Sources */,
+				CF70A86027A2DD0200AD7A48 /* Frameworks */,
+				CF70A86127A2DD0200AD7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jott;
+			productName = jott;
+			productReference = CF70A86327A2DD0200AD7A48 /* jott.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF70A87327A2DD0300AD7A48 /* jottTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70A88B27A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jottTests" */;
+			buildPhases = (
+				CF70A87027A2DD0300AD7A48 /* Sources */,
+				CF70A87127A2DD0300AD7A48 /* Frameworks */,
+				CF70A87227A2DD0300AD7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF70A87627A2DD0300AD7A48 /* PBXTargetDependency */,
+			);
+			name = jottTests;
+			productName = jottTests;
+			productReference = CF70A87427A2DD0300AD7A48 /* jottTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF70A87D27A2DD0300AD7A48 /* jottUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70A88E27A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jottUITests" */;
+			buildPhases = (
+				CF70A87A27A2DD0300AD7A48 /* Sources */,
+				CF70A87B27A2DD0300AD7A48 /* Frameworks */,
+				CF70A87C27A2DD0300AD7A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF70A88027A2DD0300AD7A48 /* PBXTargetDependency */,
+			);
+			name = jottUITests;
+			productName = jottUITests;
+			productReference = CF70A87E27A2DD0300AD7A48 /* jottUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF70A85B27A2DD0200AD7A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CF70A86227A2DD0200AD7A48 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CF70A87327A2DD0300AD7A48 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CF70A86227A2DD0200AD7A48;
+					};
+					CF70A87D27A2DD0300AD7A48 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CF70A86227A2DD0200AD7A48;
+					};
+				};
+			};
+			buildConfigurationList = CF70A85E27A2DD0200AD7A48 /* Build configuration list for PBXProject "jott" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF70A85A27A2DD0200AD7A48;
+			productRefGroup = CF70A86427A2DD0200AD7A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF70A86227A2DD0200AD7A48 /* jott */,
+				CF70A87327A2DD0300AD7A48 /* jottTests */,
+				CF70A87D27A2DD0300AD7A48 /* jottUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF70A86127A2DD0200AD7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70A86E27A2DD0300AD7A48 /* Preview Assets.xcassets in Resources */,
+				CF70A86B27A2DD0300AD7A48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87227A2DD0300AD7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87C27A2DD0300AD7A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF70A85F27A2DD0200AD7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70A86927A2DD0200AD7A48 /* ContentView.swift in Sources */,
+				CF70A86727A2DD0200AD7A48 /* jottApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87027A2DD0300AD7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70A87927A2DD0300AD7A48 /* jottTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70A87A27A2DD0300AD7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70A88327A2DD0300AD7A48 /* jottUITests.swift in Sources */,
+				CF70A88527A2DD0300AD7A48 /* jottUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF70A87627A2DD0300AD7A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF70A86227A2DD0200AD7A48 /* jott */;
+			targetProxy = CF70A87527A2DD0300AD7A48 /* PBXContainerItemProxy */;
+		};
+		CF70A88027A2DD0300AD7A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF70A86227A2DD0200AD7A48 /* jott */;
+			targetProxy = CF70A87F27A2DD0300AD7A48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF70A88627A2DD0300AD7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF70A88727A2DD0300AD7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF70A88927A2DD0300AD7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = jott/jott.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jott/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jott;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF70A88A27A2DD0300AD7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = jott/jott.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jott/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jott;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CF70A88C27A2DD0300AD7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jottTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jott.app/Contents/MacOS/jott";
+			};
+			name = Debug;
+		};
+		CF70A88D27A2DD0300AD7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jottTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jott.app/Contents/MacOS/jott";
+			};
+			name = Release;
+		};
+		CF70A88F27A2DD0300AD7A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jottUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = jott;
+			};
+			name = Debug;
+		};
+		CF70A89027A2DD0300AD7A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NS9GV355Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.jottUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = jott;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF70A85E27A2DD0200AD7A48 /* Build configuration list for PBXProject "jott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70A88627A2DD0300AD7A48 /* Debug */,
+				CF70A88727A2DD0300AD7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70A88827A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70A88927A2DD0300AD7A48 /* Debug */,
+				CF70A88A27A2DD0300AD7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70A88B27A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jottTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70A88C27A2DD0300AD7A48 /* Debug */,
+				CF70A88D27A2DD0300AD7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70A88E27A2DD0300AD7A48 /* Build configuration list for PBXNativeTarget "jottUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70A88F27A2DD0300AD7A48 /* Debug */,
+				CF70A89027A2DD0300AD7A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF70A85B27A2DD0200AD7A48 /* Project object */;
+}
